@@ -1,0 +1,46 @@
+{
+  "name": "custom-social-media",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "force:start": "tsc && vite build && vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.3",
+    "@radix-ui/react-popover": "^1.0.4",
+    "@styled-icons/bootstrap": "^10.47.0",
+    "@styled-icons/evaicons-solid": "^10.46.0",
+    "@tanstack/react-query": "^4.24.10",
+    "@tanstack/react-query-devtools": "^4.24.12",
+    "autoprefixer": "^10.4.13",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "phosphor-react": "^1.4.1",
+    "postcss": "^8.4.21",
+    "prettier-plugin-tailwindcss": "^0.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.2",
+    "react-router-dom": "^6.8.2",
+    "tailwindcss": "^3.2.7",
+    "zod": "^3.20.6"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/js-cookie": "^3.0.3",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
